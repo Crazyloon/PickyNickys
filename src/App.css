@@ -616,6 +616,10 @@ li.nav-item-brand {
   justify-content: center;
 }
 
+.announcement-banner p {
+  margin-bottom: 0;
+}
+
 .pink-banner {
   background-color: violet;
 }

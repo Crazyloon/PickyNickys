@@ -8,7 +8,9 @@ const Footer = () => {
         &copy; 2021 Picky Nicky's
       </div>
       <div className="footer-social">
-        <FontAwesomeIcon className="fb" icon={faFacebook} size="2x"/>
+        <a href="https://www.facebook.com/Picky-Nickys-106097991002314/">
+          <FontAwesomeIcon className="fb" icon={faFacebook} size="2x"/>
+        </a>
         <FontAwesomeIcon className="ig" icon={faInstagram} size="2x" />
         <FontAwesomeIcon className="tw" icon={faTwitterSquare} size="2x" />
       </div>
