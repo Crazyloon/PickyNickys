@@ -12,7 +12,7 @@ export const Navigation = ({page, onSelectPage}) => {
       <nav className="nav-bar">
         <ul className={"nav-list" + (menuOpen ? " responsive" : "")}>
           <li className={"nav-item-brand"} onClick={() => setMenuOpen(false)}>
-            <NavLink exact to="/" className="navigation-link nav-brand-name">
+            <NavLink exact to="/PickyNickys" className="navigation-link nav-brand-name">
               <BrandLogo />
             </NavLink>
           </li>

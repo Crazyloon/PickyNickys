@@ -17,7 +17,7 @@ const App = () => {
         <Row>
           <Col>
             <Switch>
-              <Router exact path="/">
+              <Router exact path="/PickyNickys">
                 <Home />
               </Router>
               <Router path="/videos">
