@@ -530,11 +530,29 @@ li.nav-item-brand {
   object-fit: cover;
 }
 
+@media screen and (max-width: 700px) {
+  .picture-info-card {
+    flex-direction: column;
+  }
+  .picture-info-card-image {
+    display: flex;
+    width: 60%;
+    margin: 8px auto;
+    border: 2px solid violet;
+    border-radius: 50%;
+  }
+
+  .picture-info-card-image > img {
+    border-radius: 50%;
+  }
+}
 @media screen and (min-width: 992px) {
   .picture-info-card {
     font-size: 1.3rem;
   }
 }
+
+
 
 .footer {
   position: absolute;
