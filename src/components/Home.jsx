@@ -12,7 +12,7 @@ const Home = () => {
         <p>I share all of my recipies so you can make the best of Picky Nicky's for your family.</p>
         <button className="button button-primary">Latest Recipies</button>
       </Jumbotron>
-      <PictureInfoCard imgName="https://raw.githubusercontent.com/Crazyloon/PickyNickys/main/public/images/chocolate_chip_cookies.jpg" imgAlt="Extra Large Chocolate Chip Cookies" description={'My extra large chocolate chip cookies are a dream come true. These are the first item I ever baked, before I knew there were any "rules" about standard cookie sizes. They don\'t drive much of a profit, but provide a lot of happiness!'}/>
+      <PictureInfoCard imgName="chocolate_chip_cookies.jpg" imgAlt="Extra Large Chocolate Chip Cookies" description={'My extra large chocolate chip cookies are a dream come true. These are the first item I ever baked, before I knew there were any "rules" about standard cookie sizes. They don\'t drive much of a profit, but provide a lot of happiness!'}/>
     </>
   );
 }
