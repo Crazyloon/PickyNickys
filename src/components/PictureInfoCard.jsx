@@ -1,8 +1,12 @@
-const PictureInfoCard = ({imgName, imgAlt, description}) => {
+import { imagePath } from '../constants/constants';
+
+const PictureInfoCard = ({imgName, imgAlt, description, reverse}) => {
+  const classInfoImg = `picture-info-card${reverse ? " flex-row-reverse" : ""}`;
+
   return ( 
-    <div className="picture-info-card">
+    <div className={classInfoImg}>
       <div className="picture-info-card-image">
-        <img src={"https://raw.githubusercontent.com/Crazyloon/PickyNickys/main/public/images/".concat(imgName)} alt={imgAlt} />
+        <img src={`${process.env.PUBLIC_URL}/images/${imgName}`} alt={imgAlt} />
       </div>
       <div className="picture-info-card-info">
         <p>{description}</p>

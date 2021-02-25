@@ -13,6 +13,8 @@ const Home = () => {
         <button className="button button-primary">Latest Recipies</button>
       </Jumbotron>
       <PictureInfoCard imgName="chocolate_chip_cookies.jpg" imgAlt="Extra Large Chocolate Chip Cookies" description={'My extra large chocolate chip cookies are a dream come true. These are the first item I ever baked, before I knew there were any "rules" about standard cookie sizes. They don\'t drive much of a profit, but provide a lot of happiness!'}/>
+      <PictureInfoCard imgName="chocolate_chip_cookies_02.jpg" imgAlt="Chocolate Chip Cookies" description={'Chocolate chip cookies are a staple in my kitchen. Everyone loves the decadent chocolate, soft walnuts and gooey texture of these famous morsels!'} reverse/>
+      <PictureInfoCard imgName="banana_bread.jpg" imgAlt="Banana Bread with chocolate chips" description={'Banana Bread is one of my favorite morning treats. It\'s fantastic with a hot cup of Kopiko. I like to warm it up in the microwave for just a few seconds before spreading some butter on top'}/>
     </>
   );
 }
