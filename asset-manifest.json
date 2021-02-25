@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/PickyNickys/static/css/main.6a5da23b.chunk.css",
-    "main.js": "/PickyNickys/static/js/main.2482773e.chunk.js",
-    "main.js.map": "/PickyNickys/static/js/main.2482773e.chunk.js.map",
+    "main.css": "/PickyNickys/static/css/main.bee830c6.chunk.css",
+    "main.js": "/PickyNickys/static/js/main.96eaca5d.chunk.js",
+    "main.js.map": "/PickyNickys/static/js/main.96eaca5d.chunk.js.map",
     "runtime-main.js": "/PickyNickys/static/js/runtime-main.427c23ee.js",
     "runtime-main.js.map": "/PickyNickys/static/js/runtime-main.427c23ee.js.map",
     "static/css/2.150d169a.chunk.css": "/PickyNickys/static/css/2.150d169a.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.4a933653.chunk.js.map": "/PickyNickys/static/js/3.4a933653.chunk.js.map",
     "index.html": "/PickyNickys/index.html",
     "static/css/2.150d169a.chunk.css.map": "/PickyNickys/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.6a5da23b.chunk.css.map": "/PickyNickys/static/css/main.6a5da23b.chunk.css.map",
+    "static/css/main.bee830c6.chunk.css.map": "/PickyNickys/static/css/main.bee830c6.chunk.css.map",
     "static/js/2.ad91e594.chunk.js.LICENSE.txt": "/PickyNickys/static/js/2.ad91e594.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.427c23ee.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.ad91e594.chunk.js",
-    "static/css/main.6a5da23b.chunk.css",
-    "static/js/main.2482773e.chunk.js"
+    "static/css/main.bee830c6.chunk.css",
+    "static/js/main.96eaca5d.chunk.js"
   ]
 }
