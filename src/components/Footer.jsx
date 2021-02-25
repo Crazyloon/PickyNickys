@@ -11,7 +11,9 @@ const Footer = () => {
         <a href="https://www.facebook.com/Picky-Nickys-106097991002314/">
           <FontAwesomeIcon className="fb" icon={faFacebook} size="2x"/>
         </a>
-        <FontAwesomeIcon className="ig" icon={faInstagram} size="2x" />
+        <a href="https://www.instagram.com/picky.nickys/?hl=en">
+          <FontAwesomeIcon className="ig" icon={faInstagram} size="2x" />
+        </a>
         <FontAwesomeIcon className="tw" icon={faTwitterSquare} size="2x" />
       </div>
       <div className="footer-location">Cebu City, Philippines</div>
