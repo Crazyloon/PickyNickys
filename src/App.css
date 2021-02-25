@@ -95,7 +95,7 @@ a:hover, a:visited {
 }
 
 /* Utilities */
-.flex-row-reverse {
+.row-reverse {
   flex-direction: row-reverse;
 }
 
@@ -546,6 +546,10 @@ li.nav-item-brand {
   .picture-info-card-image > img {
     border: 2px solid violet;
     border-radius: 50%;
+  }
+
+  .picture-info-card.row-reverse {
+    flex-direction: column!important;
   }
 }
 @media screen and (min-width: 992px) {

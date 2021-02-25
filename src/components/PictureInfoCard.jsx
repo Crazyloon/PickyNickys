@@ -1,7 +1,7 @@
 import { imagePath } from '../constants/constants';
 
 const PictureInfoCard = ({imgName, imgAlt, description, reverse}) => {
-  const classInfoImg = `picture-info-card${reverse ? " flex-row-reverse" : ""}`;
+  const classInfoImg = `picture-info-card${reverse ? " row-reverse" : ""}`;
 
   return ( 
     <div className={classInfoImg}>
