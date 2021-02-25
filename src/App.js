@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Router>
       <Navigation/>
-      <AnnouncementBanner title="Coming Soon!" details="(Limited orders available)" classList="pink-banner"/>
+      <AnnouncementBanner title="Coming Soon!" details="(Limited orders available)" detailLink="https://www.facebook.com/Picky-Nickys-106097991002314/" classList="pink-banner"/>
       <Container fluid="md" style={{paddingBottom: "65px"}}>
         <Row>
           <Col>
