@@ -5,7 +5,7 @@ const galleryCards = [
   {
     src: "banana_bread.jpg",
     heading: 'Banana Bread',
-    body: `Banana Bread is the perfect treat for a quick breakfast or light snack!`,
+    body: `Banana bread is the perfect treat for a quick breakfast or light snack!`,
   },
   {
     src: "banana_bread_packaged.jpg",
@@ -15,7 +15,7 @@ const galleryCards = [
   {
     src: "banana_bread_packaged_02.jpg",
     heading: 'Banana Bread',
-    body: `Our Banana bread never shys away from a photo shoot.`,
+    body: `Our banana bread never shys away from a photo shoot.`,
   },
   {
     src: "chocolate_chip_cookies_02.jpg",
@@ -45,7 +45,7 @@ const galleryCards = [
   {
     src: "cookies_packaged_in_container.jpg",
     heading: 'Chocolate Chip Cookies',
-    body: `Another early order packed with our official logo.`,
+    body: `Another order packed with our official logo, ready to be eaten.`,
   },
 ]
 
