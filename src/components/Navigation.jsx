@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faFilm, faClipboardList, faShoppingBasket } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faFilm, faClipboardList, faShoppingBasket, faTh } from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from "react-router-dom";
 import BrandLogo from "./BrandLogo";
 
@@ -26,6 +26,12 @@ export const Navigation = ({page, onSelectPage}) => {
             <NavLink to="/recipies" className="navigation-link">
               <FontAwesomeIcon icon={faClipboardList} size={'1x'} />
               Recipies
+            </NavLink>
+          </li>
+          <li className={"nav-item"} onClick={() => setMenuOpen(false)}>
+            <NavLink to="/gallery" className="navigation-link">
+              <FontAwesomeIcon icon={faTh} size={'1x'} />
+              Gallery
             </NavLink>
           </li>
           <li className={"nav-item"} onClick={() => setMenuOpen(false)}>

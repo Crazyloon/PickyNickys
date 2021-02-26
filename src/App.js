@@ -6,6 +6,7 @@ import {Container, Row, Col} from 'reactstrap';
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import Footer from "./components/Footer";
 import AnnouncementBanner from "./components/AnnouncementBanner";
+import Gallery from "./components/Gallery";
 
 const App = () => {
 
@@ -29,6 +30,9 @@ const App = () => {
                 <div style={{color: "var(--primary-dark)"}}>
                   <AnnouncementBanner title="This Page is Under Development" />
                 </div>
+              </Router>
+              <Router path="/gallery">
+                <Gallery />
               </Router>
               <Router path="/order">
                 <div style={{color: "var(--primary-dark)"}}>

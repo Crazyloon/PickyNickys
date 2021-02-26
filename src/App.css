@@ -38,6 +38,7 @@
   
   --white: #ffffff;
   --light-brown: #c5b8ab;
+  --pink: #ee82ee;
   
   --xs: 575px; /* Max container width None (auto) */
   --sm: 576px; /* Max container width 540px */
@@ -636,4 +637,15 @@ li.nav-item-brand {
 
 .pink-banner {
   background-color: violet;
+}
+
+/* Card Deck */
+
+/* Card */
+.card {
+  color: var(--primary-dark);
+  background-color: var(--primary-light);
+  border: 2px solid var(--pink);
+  border-radius: 5px;
+  transition: all .2s ease-in-out;
 }
