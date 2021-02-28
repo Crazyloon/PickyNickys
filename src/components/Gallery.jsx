@@ -47,6 +47,21 @@ const galleryCards = [
     heading: 'Chocolate Chip Cookies',
     body: `Another order packed with our official logo, ready to be eaten.`,
   },
+  {
+    src: "multi_order_display.jpg",
+    heading: 'Banana Bread and Cookies',
+    body: `We had a very busy day! Business is starting out quite well!`,
+  },
+  {
+    src: "milk_tea_01.jpg",
+    heading: 'Milk Tea',
+    body: `Classic (left) and Darkchoco Creamcheese (right) milk teas are here!`,
+  },
+  {
+    src: "milk_tea_02.jpg",
+    heading: 'Milk Tea',
+    body: `Choco-banana (left) and Okinawa (right) milk teas - so refreshing!`,
+  },
 ]
 
 const Gallery = ({cards}) => {
